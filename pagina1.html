@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina1</title>
+</head>
+<body>
+    <script>
+        let nombre = "Brayan";
+        let apellido = "Chan";
+        let precio1 = 10;
+        let precio2 = 20;
+        let cantidad = 19;
+        document.write("<hr>");
+        document.write("Hola " + nombre + " " + apellido);
+
+        //HACER UN SALTO DE LINEA
+
+        document.write("<br>");
+        document.write("Tu edad es de: " + cantidad + " años");
+        document.write("<br>"); 
+
+        //TIPOS DE DATOS
+
+        document.write("<br>");
+        document.write("Compraste dos artículos: ");
+        document.write("<br>");
+        
+        document.write("El primer articulo cuesta: $" + precio1);
+        document.write("<br>");
+        document.write("El segundo articulo cuesta: $" + precio2);
+        let total = precio1 + precio2;
+        document.write("<br>");
+        document.write("El total es: $" + total);
+
+        document.write("<br>");
+        document.write("<hr>");
+
+        //Variables de tipo Object
+
+        let persona = {
+            nombre: "Brayan",
+            apellido: "Chan",
+            edad: 19
+        }
+        
+        document.write("Tu apellido es: " + persona.apellido);
+        document.write("<br>");
+        document.write("Tu nombre es: " + persona.nombre);
+        document.write("<br>");
+        document.write("Tu edad es: " + persona.edad);
+
+    </script>
+</body>
+</html>
